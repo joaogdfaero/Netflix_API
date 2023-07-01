@@ -1,4 +1,4 @@
-# Netflix_API
+# Netflix API
 Este projeto consiste em uma API capaz de receber e retornar dados em CSV com informações sobre filmes e séries da Netflix.
 
 ## Requisitos
