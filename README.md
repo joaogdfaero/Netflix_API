@@ -81,16 +81,16 @@
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/joaogdfaero/editora_livros_rails.svg?style=for-the-badge
-[contributors-url]: https://github.com/joaogdfaero/editora_livros_rails/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/joaogdfaero/editora_livros_rails.svg?style=for-the-badge
-[forks-url]: https://github.com/joaogdfaero/editora_livros_rails/network/members
-[stars-shield]: https://img.shields.io/github/stars/joaogdfaero/editora_livros_rails.svg?style=for-the-badge
-[stars-url]: https://github.com/joaogdfaero/editora_livros_rails/stargazers
-[issues-shield]: https://img.shields.io/github/issues/joaogdfaero/editora_livros_rails.svg?style=for-the-badge
-[issues-url]: https://github.com/joaogdfaero/editora_livros_rails/issues
-[license-shield]: https://img.shields.io/github/license/joaogdfaero/editora_livros_rails.svg?style=for-the-badge
-[license-url]: https://github.com/joaogdfaero/editora_livros_rails/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/joaogdfaero/Netflix_API.svg?style=for-the-badge
+[contributors-url]: https://github.com/joaogdfaero/Netflix_API/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/joaogdfaero/Netflix_API.svg?style=for-the-badge
+[forks-url]: https://github.com/joaogdfaero/Netflix_API/network/members
+[stars-shield]: https://img.shields.io/github/stars/joaogdfaero/Netflix_API.svg?style=for-the-badge
+[stars-url]: https://github.com/joaogdfaero/Netflix_API/stargazers
+[issues-shield]: https://img.shields.io/github/issues/joaogdfaero/Netflix_API.svg?style=for-the-badge
+[issues-url]: https://github.com/joaogdfaero/Netflix_API/issues
+[license-shield]: https://img.shields.io/github/license/joaogdfaero/Netflix_API.svg?style=for-the-badge
+[license-url]: https://github.com/joaogdfaero/Netflix_API/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/jo%C3%A3o-gabriel-dal-forno/
 [product-screenshot]: images/screenshot.png
