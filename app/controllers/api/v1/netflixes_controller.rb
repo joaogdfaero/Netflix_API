@@ -8,7 +8,15 @@ module Api
 
             # GET /netflixes
             def index
-                @netflixes = Netflix.all
+                @netflixes = if params['country'].present?
+                    Netflix.country(params['country'])
+                elsif params['genre'].present?
+                    Netflix.genre(params['genre'])
+                elsif params['year'].present?
+                    Netflix.year(params['year'])
+                else
+                    Netflix.all.order('year ASC')
+                end
 
                 render json: @netflixes
             end
