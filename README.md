@@ -29,7 +29,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/joaogdfaero/editora_livros_rails">
+  <a href="https://github.com/joaogdfaero/Netflix_API/">
     <img src="images/logo2.png" alt="Logo" width="180" height="180">
   </a>
 
@@ -46,23 +46,6 @@
     <a href="https://github.com/joaogdfaero/Netflix_API/issues">Request Feature</a>
   </p>
 </div>
-
-
-<!-- ABOUT THE PROJECT -->
-## Algumas Funcionalidades :iphone:
-Upload de arquivo .csv para o banco de dados      |  Filtragem dos dados por por ano de lançamento, gênero e país. 
-:-------------------------:|:-------------------------:
-![1](https://user-images.githubusercontent.com/103076610/222918236-05a2fab0-833b-40cb-bfef-cf8ff15a0ebd.gif)  |  ![2](https://user-images.githubusercontent.com/103076610/222918487-3a0310d8-d300-4ef5-a1c5-dc62c4f9dec4.gif)
-
-## Requisitos do Projeto :ballot_box_with_check:
-● Endpoint capaz de ler um arquivo .csv, popular o banco de dados as informações do arquivo;
-
-● A leitura do arquivo .csv deve ser através de um endpoint diferente da listagem de títulos;
-
-● Ser possível filtrar os registros por ano de lançamento, gênero, país*;
-
-</font>
-
 
 ## API Documentation (Postman) <a href="https://stackshare.io/postman" target="_blank"><img src="https://github.com/kilianpaquier/devicon/blob/dbea53e8f43aa502e0d35d595729ecd86db87f62/icons/postman/postman-plain.svg" alt="ruby" width="40" height="40" /></a> 
 
