@@ -30,7 +30,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/joaogdfaero/Netflix_API/">
-    <img src="images/logo2.png" alt="Logo" width="180" height="180">
+    <img src="Netflix-Symbol.png" alt="Logo" width="180" height="180">
   </a>
 
 <h3 align="center">Netflix API</h3>
