@@ -2,7 +2,7 @@ class CreateNetflixes < ActiveRecord::Migration[7.0]
   def change
     create_table :netflixes do |t|
       t.string :id_csv
-      t.string :type
+      t.string :genre
       t.string :title
       t.string :director
       t.string :cast

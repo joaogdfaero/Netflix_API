@@ -10,10 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_07_01_135406) do
+ActiveRecord::Schema[7.0].define(version: 2023_07_01_164251) do
   create_table "netflixes", force: :cascade do |t|
     t.string "id_csv"
-    t.string "type"
+    t.string "genre"
     t.string "title"
     t.string "director"
     t.string "cast"

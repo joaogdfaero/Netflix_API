@@ -3,6 +3,7 @@ require 'csv'
 module Api
     module V1
         class NetflixesController < ApplicationController
+            skip_before_action :verify_authenticity_token, only: [:import_csv]
             before_action :set_netflix, only: %i[show update destroy]
 
             # GET /netflixes
@@ -49,6 +50,28 @@ module Api
             # TEST
             def method_test
                 render json: { message: "Deu certo (teste)!" }, status: :ok
+            end
+
+            # IMPORT_CSV
+            def import_csv
+                errors = []
+
+                CSV.foreach(params[:csv].path, headers: true) do |row|
+                    begin
+                        Netflix.create( id_csv: row[0], genre: row[1], title: row[2], director: row[3], cast: row[4],
+                      country: row[5], year: row[6], year: row[7], rating: row[8], duration: row[9],
+                      listed_in: row[10], description: row[11])
+                    
+                    rescue Exception => error
+                        errors << error.message
+                    end
+                end
+
+                if errors.blank?
+                    render json: { first_message: "Arquivo CSV importado com sucesso!" }, status: :ok
+                else
+                    render json: { first_message: errors.join(', ') }, status: :unprocessable_entity
+                end  
             end
 
             private
