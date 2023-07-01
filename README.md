@@ -47,15 +47,12 @@
   </p>
 </div>
 
-## Requisitos do Projeto
+## Requisitos do Projeto :ballot_box_with_check:
+● Endpoint capaz de ler um arquivo .csv, popular o banco de dados as informações do arquivo;
 
 ● A leitura do arquivo .csv deve ser através de um endpoint diferente da listagem de títulos;
 
-● Ordenar pelo ano de lançamento;
-
-● Filtrar os registros por ano de lançamento, gênero, país*;
-
-● Garantir que não haja duplicidade de registros;
+● Ser possível filtrar os registros por ano de lançamento, gênero, país*;
 
 ## API Documentation (Postman) <a href="https://stackshare.io/postman" target="_blank"><img src="https://github.com/kilianpaquier/devicon/blob/dbea53e8f43aa502e0d35d595729ecd86db87f62/icons/postman/postman-plain.svg" alt="ruby" width="40" height="40" /></a> 
 
