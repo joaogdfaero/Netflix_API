@@ -36,7 +36,7 @@
 <h3 align="center">Netflix API</h3>
 
   <p align="center">
-    Este projeto consiste em uma API capaz de ler um arquivo .csv (TT_ 4 - netflix_titles.csv), popular o banco de dados com as informações do arquivo sendo também capaz de exibir os registros em json. O arquivo lido consiste em uma lista de filmes e séries da Netflix.
+    Este projeto consiste em uma API capaz de ler um arquivo .csv (netflix_titles.csv), popular o banco de dados com as informações do arquivo sendo também capaz de exibir os registros em json. O arquivo lido consiste em uma lista de filmes e séries da Netflix.
     <br />
     <br />
     <br />
