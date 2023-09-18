@@ -5,8 +5,6 @@
 [![Issues][issues-shield]][issues-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -17,7 +15,7 @@
 <h3 align="center">Netflix API</h3>
 
   <p align="center">
-    Este projeto consiste em uma API capaz de ler um arquivo .csv (netflix_titles.csv), popular o banco de dados com as informações do arquivo, sendo também capaz de exibir os registros em json. O arquivo lido consiste em uma lista de filmes e séries da Netflix.
+    This project consists of an API capable of reading a .csv file (netflix_titles.csv), populating the database with the information from the file, and also capable of displaying the records in JSON format. The read file consists of a list of Netflix movies and series.
     <br />
     <br />
     <br />
@@ -28,44 +26,42 @@
   </p>
 </div>
 
-## Requisitos do Projeto :ballot_box_with_check:
-● Endpoint capaz de ler um arquivo .csv, popular o banco de dados as informações do arquivo;
+## Project Requirements :ballot_box_with_check:
+● Endpoint capable of reading a .csv file and populating the database with the file's information;
 
-● A leitura do arquivo .csv deve ser através de um endpoint diferente da listagem de títulos;
+● The .csv file reading should be done through a different endpoint than the title listing;
 
-● Ser possível filtrar os registros por ano de lançamento, gênero e país;
+● It should be possible to filter records by release year, genre, and country;
 
 ## API Documentation (Postman) <a href="https://stackshare.io/postman" target="_blank"><img src="https://github.com/kilianpaquier/devicon/blob/dbea53e8f43aa502e0d35d595729ecd86db87f62/icons/postman/postman-plain.svg" alt="ruby" width="40" height="40" /></a> 
 
 [Link](https://documenter.getpostman.com/view/24543977/2s93zCXzWV) 
 
-## Tecnologias:
+## Technologies:
 * Ruby 3.0.2
 * Rails 7.0.4.3
-* SQlite3
+* SQLite3
 
-## Instalação
-1. **Clone este repositório**  
+## Installation
+1. **Clone this repository**  
 ` git clone https://github.com/joaogdfaero/Netflix_API.git`
 
-2. **Acesse a pasta do projeto**  
+2. **Navigate to the project folder**  
 ` cd Netflix_API `
 
-3. **Instale as gems necessárias**  
+3. **Install the necessary gems**  
 ` bundle `
 
-4. **Execute o servidor da aplicação**  
+4. **Run the application server**  
 ` rails s `
 
-5. **O servidor inciará na porta: 3000 - acesse:**    
+5. **The server will start on port: 3000 - access:**    
 ` http://localhost:3000 `
-
-
 
 ##
 <br>Author: <strong>João Gabriel Dal Forno (joao.dal@acad.ufsm.br)</strong>
 
-<p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -98,4 +94,3 @@
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
-
