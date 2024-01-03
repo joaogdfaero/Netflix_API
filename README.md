@@ -71,6 +71,7 @@
 [stars-shield]: https://img.shields.io/github/stars/joaogdfaero/Netflix_API.svg?style=for-the-badge
 [stars-url]: https://github.com/joaogdfaero/Netflix_API/stargazers
 [issues-shield]: https://img.shields.io/github/issues/joaogdfaero/Netflix_API.svg?style=for-the-badge
+[linkedin-url]: https://www.linkedin.com/in/joaogabrieldf/
 [issues-url]: https://github.com/joaogdfaero/Netflix_API/issues
 [license-shield]: https://img.shields.io/github/license/joaogdfaero/Netflix_API.svg?style=for-the-badge
 [license-url]: https://github.com/joaogdfaero/Netflix_API/blob/master/LICENSE.txt
